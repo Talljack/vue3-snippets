@@ -1,45 +1,42 @@
 {
-  "name": "helloworld",
-  "displayName": "HelloWorld",
-  "description": "Begainner",
+  "name": "vue-3-snippets",
+  "displayName": "Vue 3 Snippets for Vscode",
+  "description": "Vue 3 Snippets for VScode",
+  "publisher": "talljack",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Talljack/vue3-snippets.git"
+  },
+  "author": {
+    "name": "Talljack",
+    "email": "caoyugang_1@gmail.com",
+    "url": "https://github.com/Talljack"
+  },
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.71.0"
   },
   "categories": [
-    "Other"
+    "Snippets"
   ],
-  "activationEvents": [
-    "onCommand:helloworld.helloWorld"
+  "keywords": [
+    "Vue",
+    "Vue 3",
+    "Vue Snippets",
+    "Vue 3 snippets",
+    "Vue 3 template",
+    "Composition API"
   ],
-  "main": "./out/extension.js",
   "contributes": {
-    "commands": [
+    "snippets": [
       {
-        "command": "helloworld.helloWorld",
-        "title": "Hello World"
+        "language": "vue",
+        "path": "./snippets/vue.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/vue-template.json"
       }
     ]
-  },
-  "scripts": {
-    "vscode:prepublish": "pnpm run compile",
-    "compile": "tsc -p ./",
-    "watch": "tsc -watch -p ./",
-    "pretest": "pnpm run compile && pnpm run lint",
-    "lint": "eslint src --ext ts",
-    "test": "node ./out/test/runTest.js"
-  },
-  "devDependencies": {
-    "@types/vscode": "^1.71.0",
-    "@types/glob": "^7.2.0",
-    "@types/mocha": "^9.1.1",
-    "@types/node": "16.x",
-    "@typescript-eslint/eslint-plugin": "^5.31.0",
-    "@typescript-eslint/parser": "^5.31.0",
-    "eslint": "^8.20.0",
-    "glob": "^8.0.3",
-    "mocha": "^10.0.0",
-    "typescript": "^4.7.4",
-    "@vscode/test-electron": "^2.1.5"
   }
 }
