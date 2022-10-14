@@ -1,71 +1,51 @@
-# helloworld README
+# Vue 3 VS Code Snippets
 
-This is the README for your extension "helloworld". After writing up a brief description, we recommend including the following sections.
+![Vue Version](https://img.shields.io/badge/vue-3-%234FC08D?logo=vuedotjs)
 
-## Features
+## Description
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+These vue snippets is for vue3 developer. Use it you can write boilerplate code infinitely faster.
 
-For example if there is an image subfolder under your extension project workspace:
+> inspire by [vue-vscode-snippets](https://github.com/sdras/vue-vscode-snippets)@sdras.
+> because I want to more snippets for vue3. so I create this repo.
 
-\!\[feature X\]\(images/feature-x.png\)
+### `.vue` files
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+| Snippet      | Purpose                                                               |
+| ------------ | --------------------------------------------------------------------- |
+| `vbase`      | Base for Vue 3 File with `<script lang="ts" setup>`, `TypeScript` and `Scss`    |
+| `vbase-nt`   | Base for Vue 3 File with `<script lang="ts"> with render`, `TypeScript` and `Scss` |
+| `vbase-ns`   | Base for Vue 3 File with `<script lang="ts" setup>`, `TypeScript` |
 
-## Requirements
+### Template
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+| Snippet        | Purpose                           |
+| -------------- | --------------------------------- |
+| `vfor-arr`         | `v-for` array statement                 |
+| `vfor-obj`         | `v-for` object statement                 |
+| `vif`         | `v-if` statement                   |
+| `vshow`         | `v-show` statement                 |
+| `vhtml`         | `v-html` statement                 |
+| `vmodel`       | `v-model:value` model directive               |
+| `vupdate`       | `:value` and `@:update:value`  binding and update               |
+| `vclass-arr`       | `:class`  array of class               |
+| `vclass-obj`       | `:class`  object of class               |
+| `vstyle-arr`       | `:style`  array of style               |
+| `vstyle-obj`       | `:class`  object of style               |
+| `vref-tmpl`       | `ref`  ref of template               |
+| `von`          | `v-on` click handler              |
+| `vslot`          | `slot` name of define slot              |
+| `vslot-name`   | Named template slot                        |
+| `vel-props`    | Component element with `props`    |
+| `vimg`         | Image source binding              |
+| `vtrans`       | Transition component              |
+| `vtrans-group` | Transition group component        |
+| `vkeep-alive`  | KeepAlive component               |
+| `vteleport`    | Teleport component                |
+| `vsuspense`    | Susepense component               |
+| `vrlink`       | Router link                       |
+| `vrlink-param` | Router link with param            |
 
-## Extension Settings
+## License
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
-
-## Following extension guidelines
-
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
-
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+[MIT License](https://github.com/Talljack/vue3-hotKey/blob/main/LICENSE) © 2021-PRESENT [Talljack](https://github.com/Talljack)
