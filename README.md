@@ -48,4 +48,4 @@ These vue snippets is for vue3 developer. Use it you can write boilerplate code 
 
 ## License
 
-[MIT License](https://github.com/Talljack/vue3-hotKey/blob/main/LICENSE) © 2021-PRESENT [Talljack](https://github.com/Talljack)
+[MIT License](https://github.com/Talljack/vue3-hotKey/blob/main/LICENSE) © 2022-PRESENT [Talljack](https://github.com/Talljack)
