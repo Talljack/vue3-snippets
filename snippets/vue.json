@@ -1,0 +1,52 @@
+{
+  "Vue3 template": {
+    "prefix": "vbase",
+    "body": [
+        "<script lang=\"{1:ts}\" setup>",
+        "import { ref } from 'vue'",
+        "</script>\n",
+        "<template>",
+        "\t<div>\n",
+        "\t</div>",
+        "</template>\n",
+        "<style lang=\"{2:scss}\" scoped>\n",
+        "\t",
+        "</style>"
+    ],
+    "description": "vue3 base template"
+  },
+  "Vue3 render template": {
+    "prefix": "vbase-nt",
+    "body": [
+        "<script lang=\"{1:tsx}\">",
+        "import { defineComponent } from 'vue'",
+        "export default defineComponent({",
+        "\tsetup() {",
+        "\t\trender() {",
+        "\t\t\treturn (",
+        "\t\t\t\t<div></div>",
+        "\t\t\t)",
+        "\t\t}",
+        "\t}",
+        "})",
+        "</script>\n",
+        "<style lang=\"{2:scss}\" scoped>\n",
+        "\t",
+        "</style>"
+    ],
+    "description": "vue3 base render template"
+  },
+  "Vue3 without style template": {
+    "prefix": "vbase-ns",
+    "body": [
+      "<script lang=\"{1:ts}\" setup>",
+      "import { ref } from 'vue'",
+      "</script>\n",
+      "<template>",
+      "\t<div>\n",
+      "\t</div>",
+      "</template>\n"
+    ],
+    "description": "vue3 base without style template"
+  }
+}
