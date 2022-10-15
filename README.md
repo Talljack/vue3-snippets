@@ -11,40 +11,41 @@ These vue snippets is for vue3 developer. Use it you can write boilerplate code 
 
 ### `.vue` files
 
-| Snippet      | Purpose                                                               |
-| ------------ | --------------------------------------------------------------------- |
-| `vbase`      | Base for Vue 3 File with `<script lang="ts" setup>`, `TypeScript` and `Scss`    |
-| `vbase-nt`   | Base for Vue 3 File with `<script lang="ts"> with render`, `TypeScript` and `Scss` |
-| `vbase-ns`   | Base for Vue 3 File with `<script lang="ts" setup>`, `TypeScript` |
+| Snippet        | Purpose                                                                                            |
+| -------------- | -------------------------------------------------------------------------------------------------- |
+| `vbase`        | Base for Vue 3 File with `<script lang="ts" setup>`, `TypeScript` and `Scss`                       |
+| `vbase-nt`     | Base for Vue 3 File with `<script lang="tsx"> with setup custom render`, `TypeScript` and `Scss`   |
+| `vbase-render` | Base for Vue 3 File with `<script lang="tsx" setup> with render function`, `TypeScript` and `Scss` |
+| `vbase-ns`     | Base for Vue 3 File with `<script lang="ts" setup>`, `TypeScript`                                  |
 
 ### Template
 
-| Snippet        | Purpose                           |
-| -------------- | --------------------------------- |
-| `vfor-arr`         | `v-for` array statement                 |
-| `vfor-obj`         | `v-for` object statement                 |
-| `vif`         | `v-if` statement                   |
-| `vshow`         | `v-show` statement                 |
-| `vhtml`         | `v-html` statement                 |
-| `vmodel`       | `v-model:value` model directive               |
-| `vupdate`       | `:value` and `@:update:value`  binding and update               |
-| `vclass-arr`       | `:class`  array of class               |
-| `vclass-obj`       | `:class`  object of class               |
-| `vstyle-arr`       | `:style`  array of style               |
-| `vstyle-obj`       | `:class`  object of style               |
-| `vref-tmpl`       | `ref`  ref of template               |
-| `von`          | `v-on` click handler              |
-| `vslot`          | `slot` name of define slot              |
-| `vslot-name`   | Named template slot                        |
-| `vel-props`    | Component element with `props`    |
-| `vimg`         | Image source binding              |
-| `vtrans`       | Transition component              |
-| `vtrans-group` | Transition group component        |
-| `vkeep-alive`  | KeepAlive component               |
-| `vteleport`    | Teleport component                |
-| `vsuspense`    | Susepense component               |
-| `vrlink`       | Router link                       |
-| `vrlink-param` | Router link with param            |
+| Snippet        | Purpose                                          |
+| -------------- | ------------------------------------------------ |
+| `vfor-arr`     | `v-for` array statement                          |
+| `vfor-obj`     | `v-for` object statement                         |
+| `vif`          | `v-if` statement                                 |
+| `vshow`        | `v-show` statement                               |
+| `vhtml`        | `v-html` statement                               |
+| `vmodel`       | `v-model:value` model directive                  |
+| `vupdate`      | `:value` and `@:update:value` binding and update |
+| `vclass-arr`   | `:class` array of class                          |
+| `vclass-obj`   | `:class` object of class                         |
+| `vstyle-arr`   | `:style` array of style                          |
+| `vstyle-obj`   | `:class` object of style                         |
+| `vref-tmpl`    | `ref` ref of template                            |
+| `von`          | `v-on` click handler                             |
+| `vslot`        | `slot` name of define slot                       |
+| `vslot-name`   | Named template slot                              |
+| `vel-props`    | Component element with `props`                   |
+| `vimg`         | Image source binding                             |
+| `vtrans`       | Transition component                             |
+| `vtrans-group` | Transition group component                       |
+| `vkeep-alive`  | KeepAlive component                              |
+| `vteleport`    | Teleport component                               |
+| `vsuspense`    | Susepense component                              |
+| `vrlink`       | Router link                                      |
+| `vrlink-param` | Router link with param                           |
 
 ## License
 
