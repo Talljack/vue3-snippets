@@ -104,6 +104,7 @@ These vue snippets is for vue3 developer. Use it you can write boilerplate code 
 | `vrouter-params`            | Get `params` and `query` by `useRoute` quickly  |
 | `vrouter-uselink`           | Get `href` and `isActive` by `useLink` quickly  |
 
+
 ### Vuex
 
 | Snippet         | Purpose                                                                                                                                                                          |
@@ -113,6 +114,7 @@ These vue snippets is for vue3 developer. Use it you can write boilerplate code 
 | `vuexbase`      | Vuex base template without `Typescript`                                                                                                                                          |
 | `vuexlogger`    | Vuex `plugins` of `createLogger`                                                                                                                                                 |
 | `vuexbase-type` | Vuex base template with `Typescript`, only in typescript file, ref[vuex](https://vuex.vuejs.org/zh/guide/typescript-support.html#%E7%AE%80%E5%8C%96-usestore-%E7%94%A8%E6%B3%95) |
+
 
 ## License
 
