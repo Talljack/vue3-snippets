@@ -1,0 +1,66 @@
+{
+  "Vuex import": {
+    "prefix": "vueximport",
+    "body": ["import { useStore } from 'vuex'"],
+    "description": "Vuex import"
+  },
+  "Vuex useStore": {
+    "prefix": "vuexuseStore",
+    "body": ["const store = useStore()"],
+    "description": "Vuex useStore"
+  },
+  "Vuex base store": {
+    "prefix": "vuexbase",
+    "body": [
+      "import { createStore } from 'vuex'",
+      "const store = createStore({",
+      "\tstate () {",
+      "\t\treturn {",
+      "\t\t\t${1:count}: ${2:0}",
+      "\t\t}",
+      "\t},",
+      "\tmutations: {",
+      "\t\tincrement (state) {",
+      "\t\t\tstate.count++",
+      "\t\t}",
+      "\t}",
+      "})"
+    ],
+    "description": "Vuex base store"
+  },
+  "Vuex logger": {
+    "prefix": "vuexlogger",
+    "body": [
+      "import { createLogger } from 'vuex'",
+      "// 获取env变量",
+      "const env = process.env.NODE_ENV",
+      "plugins: [env === 'development' ? createLogger() : []]"
+    ],
+    "description": "Vuex logger"
+  },
+  "Vuex state type": {
+    "prefix": "vuexbase-type",
+    "body": [
+      "import { InjectionKey } from 'vue'",
+      "import { createStore, useStore as baseUseStore, Store } from 'vuex'",
+      "// 为 store state 声明类型",
+      "export interface State {",
+      "\t${1:count}: ${2:number}",
+      "}",
+      "// 定义 injection key",
+      "export const key: InjectionKey<Store<State>> = Symbol()",
+      "export const store = createStore<State>({",
+      "\tstate () {",
+      "\t\treturn {",
+      "\t\t\t${1:count}: ${2:0}",
+      "\t\t}",
+      "\t}",
+      "})",
+      "// 定义自己的 `useStore` 组合式函数",
+      "export function useStore () {",
+      "\treturn baseUseStore(key)",
+      "}"
+    ],
+    "description": "Vuex state type"
+  }
+}
