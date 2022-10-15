@@ -19,30 +19,22 @@
   },
   "Vue v-if": {
     "prefix": "vif",
-    "body": [
-      "<${1:div} v-if=\"${2:show}\"></${1:div}>"
-    ],
+    "body": ["<${1:div} v-if=\"${2:show}\"></${1:div}>"],
     "description": "v-if statement"
   },
   "Vue v-show": {
     "prefix": "vshow",
-    "body": [
-      "<${1:div} v-show=\"${2:show}\"></${1:div}>"
-    ],
+    "body": ["<${1:div} v-show=\"${2:show}\"></${1:div}>"],
     "description": "v-show statement"
   },
   "Vue v-html": {
     "prefix": "vhtml",
-    "body": [
-      "<${1:div} v-html=\"${2:content}\"/>"
-    ],
+    "body": ["<${1:div} v-html=\"${2:content}\"/>"],
     "description": "v-html statement"
   },
   "Vue v-model": {
     "prefix": "vmodel",
-    "body": [
-        "<${1:div} v-model:${2:value}=\"${3:value}\"></${1:div}>"
-    ],
+    "body": ["<${1:div} v-model:${2:value}=\"${3:value}\"></${1:div}>"],
     "description": "v-model statement"
   },
   "Vue v-update": {
@@ -54,9 +46,7 @@
   },
   "Vue v-class array": {
     "prefix": "vclass-arr",
-    "body": [
-      "<${1:div} :class=\"[${2:activeClass}]\"></${1:div}>"
-    ],
+    "body": ["<${1:div} :class=\"[${2:activeClass}]\"></${1:div}>"],
     "description": "v-class array statement"
   },
   "Vue v-class object": {
@@ -68,30 +58,22 @@
   },
   "Vue v-style array": {
     "prefix": "vstyle-arr",
-    "body": [
-      "<${1:div} :style=\"[${2:baseStyles}]\"></${1:div}>"
-    ],
+    "body": ["<${1:div} :style=\"[${2:baseStyles}]\"></${1:div}>"],
     "description": "v-style array statement"
   },
   "Vue v-style object": {
     "prefix": "vstyle-obj",
-    "body": [
-      "<${2:div} :style=\"{ fontSize: '${1: data}px' }\"></${2:div}>"
-    ],
+    "body": ["<${2:div} :style=\"{ fontSize: '${1: data}px' }\"></${2:div}>"],
     "description": "v-style object statement"
   },
   "Vue v-ref template": {
     "prefix": "vref-tmpl",
-    "body": [
-      "<${1:div} ref=\"${2:divContainer}\"></${1:div}>"
-    ],
+    "body": ["<${1:div} ref=\"${2:divContainer}\"></${1:div}>"],
     "description": "ref template statement"
   },
   "Vue v-is template": {
     "prefix": "vis-tmpl",
-    "body": [
-      "<component :is=\"${1:my-component}\"></component>"
-    ],
+    "body": ["<component :is=\"${1:my-component}\"></component>"],
     "description": "component is template statement"
   },
   "Vue v-on Shortcut Directive": {
@@ -116,9 +98,7 @@
   },
   "Vue Image Source Binding": {
     "prefix": "vimg",
-    "body": [
-      "<img :src=\"${1:imageSrc}\" :alt=\"${2:altText}\"/>"
-    ],
+    "body": ["<img :src=\"${1:imageSrc}\" :alt=\"${2:altText}\"/>"],
     "description": "image source binding"
   },
   "Vue Transition": {
@@ -141,11 +121,7 @@
   },
   "Vue KeepAlive": {
     "prefix": "vkeep-alive",
-    "body": [
-      "<KeepAlive>",
-      "\t<${1:div}></${1:div}>",
-      "</KeepAlive>"
-    ],
+    "body": ["<KeepAlive>", "\t<${1:div}></${1:div}>", "</KeepAlive>"],
     "description": "vue keep-alive component"
   },
   "Vue Teleport": {
