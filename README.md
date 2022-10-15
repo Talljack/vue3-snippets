@@ -1,5 +1,7 @@
 # Vue 3 VS Code Snippets
 
+![Visual Studio Code Version](https://img.shields.io/visual-studio-marketplace/v/talljack.vue-3-snippets?color=blue)
+![Visual Studio Code Install](https://img.shields.io/visual-studio-marketplace/i/talljack.vue-3-snippets?color=success)
 ![Vue Version](https://img.shields.io/badge/vue-3-%234FC08D?logo=vuedotjs)
 
 ## Description
