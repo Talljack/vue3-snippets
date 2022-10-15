@@ -41,14 +41,14 @@
   "Vue v-model": {
     "prefix": "vmodel",
     "body": [
-        "<${1:div} v-model:${2:value}=\"${2:value}\"></div>"
+        "<${1:div} v-model:${2:value}=\"${3:value}\"></${1:div}>"
     ],
     "description": "v-model statement"
   },
   "Vue v-update": {
     "prefix": "vupdate",
     "body": [
-      "<${1:div} :${2:value}=\"${2:value}\" @update:${2:value}=\"handleUpdateValue\"></${1:div}>"
+      "<${1:div} :${2:value}=\"${3:newValue}\" @update:${2:value}=\"${4:handleUpdateValue}\"></${1:div}>"
     ],
     "description": "v-update statement"
   },
@@ -76,7 +76,7 @@
   "Vue v-style object": {
     "prefix": "vstyle-obj",
     "body": [
-      "<${1:div} :style=\"{ fontSize: '${2: data}px' }\"></${1:div}>"
+      "<${2:div} :style=\"{ fontSize: '${1: data}px' }\"></${2:div}>"
     ],
     "description": "v-style object statement"
   },
@@ -90,9 +90,9 @@
   "Vue v-is template": {
     "prefix": "vis-tmpl",
     "body": [
-      "<${1:component} :is=\"${2:my-component}\"></${1:component}>"
+      "<component :is=\"${1:my-component}\"></component>"
     ],
-    "description": "is template statement"
+    "description": "component is template statement"
   },
   "Vue v-on Shortcut Directive": {
     "prefix": "von",
@@ -143,7 +143,7 @@
     "prefix": "vkeep-alive",
     "body": [
       "<KeepAlive>",
-      "\t<${0:div}></${0:div}>",
+      "\t<${1:div}></${1:div}>",
       "</KeepAlive>"
     ],
     "description": "vue keep-alive component"
