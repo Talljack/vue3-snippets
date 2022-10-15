@@ -47,6 +47,61 @@ These vue snippets is for vue3 developer. Use it you can write boilerplate code 
 | `vrlink`       | Router link                                      |
 | `vrlink-param` | Router link with param                           |
 
+### Script
+
+| Snippet            | Purpose                                       |
+| ------------------ | --------------------------------------------- |
+| `vimport`          | Vue import                                    |
+| `vref`             | Vue `ref`                                     |
+| `vreactive`        | Vue `reactive`                                |
+| `vcomputed`        | Vue `computed`                                |
+| `vwatch`           | Vue Watch                                     |
+| `vwatcheffect`     | Watch Effect                                  |
+| `vshallowref`      | Vue `shallowRef`                              |
+| `vshallowreactive` | Vue `shallowReactive`                         |
+| `vmarkraw`         | Vue `markRaw`                                 |
+| `vonmounted`       | onMounted hook                                |
+| `vonbeforemount`   | onBeforeMount hook                            |
+| `vonbeforeupdate`  | onBeforeUpdate hook                           |
+| `vonupdated`       | onUpdated hook                                |
+| `vonunmounted`     | onUnmounted hook                              |
+| `vonactivated`     | onActivated hook                              |
+| `vondeactivated`   | onDeactivated hook                            |
+| `vonbeforeunmount` | onBeforeUnmount hook                          |
+| `vprovide`         | Vue `provide`                                 |
+| `vinject`          | Vue `inject`                                  |
+| `vprops`           | Define props                                  |
+| `vprops-default`   | Define props with default value               |
+| `vemits`           | Define emits                                  |
+| `voptions`         | Define Vue options about inheritAttrs quickly |
+| `vnexttick`        | Vue `nextTick`                                |
+| `vunref`           | Vue `unref`                                   |
+| `vtoRefs`          | Vue `toRefs`                                  |
+| `vtoRef`           | Vue `toRef`                                   |
+| `visRef`           | Vue `isRef`                                   |
+| `visReactive`      | Vue `isReactive`                              |
+
+### Vue Router
+
+| Snippet                     | Purpose                                         |
+| --------------------------- | ----------------------------------------------- |
+| `vrouter`                   | Vue Router base config                          |
+| `vrouter-scrollbehavior`    | Vue Router `scrollBehavior` config              |
+| `vrouter-import`            | Vue Router import quickly                       |
+| `vrouter-useRouter`         | Vue Router `useRouter` and `useROute`           |
+| `vrouter-push`              | Vue Router `push`                               |
+| `vrouter-redirect`          | Vue Router `redirect` config                    |
+| `vrouter-beforeEach`        | Vue Router global guards `beforeEach`           |
+| `vrouter-beforeEach`        | Vue Router global guards `beforeEach`           |
+| `vrouter-beforeResolve`     | Vue Router global guards `beforeResolve`        |
+| `vrouter-afterEach`         | Vue Router global guards `afterEach`            |
+| `vrouter-beforeEnter`       | Vue Router per-route guard `beforeEnter`        |
+| `vrouter-beforeRouteEnter`  | Vue Router component guards `beforeRouteEnter`  |
+| `vrouter-beforeRouteUpdate` | Vue Router component guards `beforeRouteUpdate` |
+| `vrouter-beforeRouteLeave`  | Vue Router component guards `beforeRouteLeave`  |
+| `vrouter-params`            | Get `params` and `query` by `useRoute` quickly  |
+| `vrouter-uselink`           | Get `href` and `isActive` by `useLink` quickly  |
+
 ## License
 
 [MIT License](https://github.com/Talljack/vue3-hotKey/blob/main/LICENSE) © 2022-PRESENT [Talljack](https://github.com/Talljack)
