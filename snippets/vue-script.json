@@ -147,22 +147,22 @@
     "description": "Vue unref"
   },
   "Vue toRefs": {
-    "prefix": "vtorefs",
+    "prefix": "vtoRefs",
     "body": ["const ${1:refs} = toRefs(${2:reactiveObj})"],
     "description": "Vue toRefs"
   },
   "Vue toRef": {
-    "prefix": "vtoref",
+    "prefix": "vtoRef",
     "body": ["const ${1:ref} = toRef(${2:reactiveObj}, ${3:prop})"],
     "description": "Vue toRef"
   },
   "Vue is Ref": {
-    "prefix": "visref",
+    "prefix": "visRef",
     "body": ["isRef(${1:ref})"],
     "description": "Vue is Ref"
   },
   "Vue is reactive": {
-    "prefix": "visreactive",
+    "prefix": "visReactive",
     "body": ["isReactive(${1:reactive})"],
     "description": "Vue is reactive"
   }
