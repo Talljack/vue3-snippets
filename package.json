@@ -44,6 +44,14 @@
       {
         "language": "typescript",
         "path": "./snippets/vue-script.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/vue-router.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/vue-router.json"
       }
     ]
   }
