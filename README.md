@@ -5,6 +5,8 @@
 ![Vue Version](https://img.shields.io/badge/vue-3-%234FC08D?logo=vuedotjs)
 ![vue-3-snippets](./images/vue3-snippets.gif)
 
+![vue-3-snippets](./images/vue3-snippets.gif)
+
 ## Description
 
 These vue snippets is for vue3 developer. Use it you can write boilerplate code infinitely faster.
